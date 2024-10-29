@@ -3,33 +3,47 @@ Transaction records for Maven Roasters, a fictitious coffee shop operating out o
 
 # Data Preview
 transaction_id : Unique sequential ID representing an individual transaction
+
 transaction_date : Date of the transaction (MM/DD/YY)
+
 transaction_time : Timestamp of the transaction (HH:MM:SS)
+
 transaction_qty : Quantity of items sold
+
 store_id : Unique ID of the coffee shop where the transaction took place
+
 store_location : Location of the coffee shop where the transaction took place
+
 product_id : Unique ID of the product sold
+
 unit_price : Retail price of the product sold
+
 product_category : Description of the product category
+
 product_type : Description of the product type
+
 product_detail : Description of the product detail
 
 # Check Null Data
-transaction_id      0
-transaction_date    0
-transaction_time    0
-transaction_qty     0
-store_id            0
-store_location      0
-product_id          0
-unit_price          0
-product_category    0
-product_type        0
-product_detail      0
+| Column              | Null Count |
+|---------------------|------------|
+| transaction_id      | 0          |
+| transaction_date    | 0          |
+| transaction_time     | 0          |
+| transaction_qty     | 0          |
+| store_id            | 0          |
+| store_location      | 0          |
+| product_id         | 0          |
+| unit_price          | 0          |
+| product_category    | 0          |
+| product_type       | 0          |
+| product_detail      | 0          |
+
 dtype: int64
 
 # Check Duplicated
 df_coffee.duplicated().sum()
+
 0
 
 # Describe
@@ -61,7 +75,9 @@ Data columns (total 11 columns):
 | product_category    | 149116 non-null   | object         |
 | product_type       | 149116 non-null   | object         |
 | product_detail      | 149116 non-null   | object         |
+
 dtypes: datetime64[ns](1), float64(1), int64(4), object(5)
+
 memory usage: 12.5+ MB
 
 # Time Range
@@ -78,6 +94,7 @@ print("Date Range:", min_date, "to", max_date)
 print("Time Range:", min_time, "to", max_time)
 ```
 Date Range: 2023-01-01 00:00:00 to 2023-06-30 00:00:00
+
 Time Range: 06:00:00 to 20:59:32
 
 # Extract time
@@ -190,47 +207,77 @@ print(output)
 ```
 
 Highest Price: 45.0
+
 Product ID: 8
+
 Total Earnings: 11700.0
+
 Total Sales unit: 260
+
 Product Category: Coffee beans
+
 Product Type: Premium Beans
+
 Product Detail: Civet Cat
 
 **Most Cheap Product**
 Cheap Price: 0.8
+
 Product ID: 64
+
 Total Earnings: 1897.6
+
 Total Sales unit: 2372
+
 Product Category: Flavours
+
 Product Type: Regular syrup
+
 Product Detail: Hazelnut syrup
 
 **Highest unit sales**
 Highest Sales unit: 4708
+
 Price: 2.5
+
 Product ID: 50
+
 Total Earnings: 11770.0
+
 Product Category: Tea
+
 Product Type: Brewed Black tea
+
 Product Detail: Earl Grey Rg
 
 **Lowest unit sales**
 Lowest Sales unit: 2
+
 Price: 4.69
+
 Product ID: 73
+
 Total Earnings: 9.38
+
 Product Category: Bakery
+
 Product Type: Pastry
+
 Product Detail: Almond Croissant
 
 **Highest earnings product**
 Sales unit: 4453
+
 Price: 4.75
+
 Product ID: 61
+
 Total Earnings: 21151.75
+
 Product Category: Drinking Chocolate
+
 Product Type: Hot chocolate
+
 Product Detail: Sustainably Grown Organic Lg
 
 **Total unit sold for Sustainably Grown Organic Lg**
@@ -274,13 +321,17 @@ This analysis highlights key products within the Maven Roasters coffee shop data
 Average Transaction Time: 12:14:15
 
 by location
-Store Location: Astoria
+
+Store Location: **Astoria**
+
 Average Transaction Time: 13:02:39
 
-Store Location: Hell's Kitchen
+Store Location: **Hell's Kitchen**
+
 Average Transaction Time: 12:11:55
 
-Store Location: Lower Manhattan
+Store Location: **Lower Manhattan**
+
 Average Transaction Time: 11:25:29
 
 **Transaction each store location**
