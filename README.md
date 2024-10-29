@@ -355,16 +355,16 @@ The analysis of the Maven Roasters coffee shop sales data provides valuable insi
 
 **Product Insights:**
 
-**1**The Civet Cat, although expensive, generates substantial earnings, reflecting its appeal among consumers despite the high price point.
+**1-** The Civet Cat, although expensive, generates substantial earnings, reflecting its appeal among consumers despite the high price point.
 
-**2**The Hazelnut Syrup demonstrates strong demand as a lower-priced item, indicating that affordable products can also drive significant sales volume.
+**2-** The Hazelnut Syrup demonstrates strong demand as a lower-priced item, indicating that affordable products can also drive significant sales volume.
 
-**3**Earl Grey Rg stands out with the highest unit sales, showcasing the 
+**3-** Earl Grey Rg stands out with the highest unit sales, showcasing the 
 importance of value in consumer choices.
 
-**4**Conversely, the Almond Croissant has low sales, suggesting it may not align with customer preferences, which could be an area for potential adjustments in inventory or marketing.
+**4-** Conversely, the Almond Croissant has low sales, suggesting it may not align with customer preferences, which could be an area for potential adjustments in inventory or marketing.
 
-**5**Transaction Timing: The busiest times for transactions are notably on Fridays, particularly between 8 AM and 10 AM, highlighting opportunities for targeted marketing or promotions during peak hours. The average transaction times vary by location, with Astoria taking the longest, indicating potential for operational improvements in service efficiency.
+**5-** Transaction Timing: The busiest times for transactions are notably on Fridays, particularly between 8 AM and 10 AM, highlighting opportunities for targeted marketing or promotions during peak hours. The average transaction times vary by location, with Astoria taking the longest, indicating potential for operational improvements in service efficiency.
 
 **Seasonal Trends**: The analysis suggests potential seasonal trends that could inform strategic marketing efforts. Understanding these patterns can help Maven Roasters optimize inventory, staffing, and promotions to better meet customer demand.
 
